@@ -1,0 +1,7 @@
+.feature-card {
+    transition: transform .2s;
+}
+
+.feature-card:hover {
+    transform: scale(1.05);
+}

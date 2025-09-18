@@ -1,0 +1,20 @@
+/* Base styles for the Navbar */
+.navbar {
+    transition: background-color 0.4s ease-out, box-shadow 0.4s ease-out;
+    padding: 0.8rem 1rem;
+}
+
+/* Styles applied when the user has scrolled down */
+.navbar.scrolled {
+    background-color: #ffffff; /* Solid white background on scroll */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* A subtle shadow for depth */
+}
+
+/* Making the brand text slightly bolder */
+.navbar-brand {
+    font-weight: 600;
+}
+
+.demo{
+   
+}

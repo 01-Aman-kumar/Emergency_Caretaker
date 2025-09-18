@@ -1,0 +1,153 @@
+/* --- Hero Section with Background Image --- */
+.hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/india.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 8rem 0;
+    text-align: center;
+}
+/* ... (keep all the other styles from the previous enhancement) ... */
+
+/* --- How It Works Section --- */
+.how-it-works-section {
+    padding: 5rem 0;
+    background-color: #ffffff;
+}
+.how-it-works-section h2 {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 4rem;
+    color: #343a40;
+}
+.step-card {
+    text-align: center;
+    border: none;
+    background: none;
+}
+.step-icon {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #e7f1ff;
+}
+.step-card h4 {
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+/* --- Testimonials Section --- */
+.testimonials-section {
+    padding: 5rem 0;
+    background-color: #f8f9fa;
+}
+.testimonials-section h2 {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 4rem;
+}
+.testimonial-card {
+    border: none;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+}
+.testimonial-card .card-body {
+    padding: 2rem;
+}
+.testimonial-card .blockquote-footer {
+    margin-top: 1rem;
+}
+
+/* --- Trusted By Section --- */
+.trusted-by-section {
+    padding: 4rem 0;
+    background-color: #ffffff;
+}
+.trusted-by-section h5 {
+    text-align: center;
+    color: #6c757d;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+.logo-container img {
+    height: 40px; /* Adjust based on logo size */
+    opacity: 0.6;
+    filter: grayscale(100%);
+    transition: all 0.3s;
+}
+.logo-container img:hover {
+    opacity: 1;
+    filter: grayscale(0%);
+}
+
+/* --- Final CTA Section --- */
+.cta-section {
+    background-color: #007bff;
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+}
+.cta-section h3 {
+    font-weight: 700;
+}
+.cta-section p {
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+/* --- Enhanced Feature Card Styles --- */
+.feature-card {
+    border: 2px solid transparent; /* Start with a transparent border */
+    background-color: #ffffff;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.07);
+    border-radius: 15px;
+    text-align: center;
+    padding: 2.5rem 2rem;
+    transition: all 0.3s ease-in-out; /* Smooth transition for all properties */
+}
+
+.feature-card:hover {
+    transform: translateY(-10px); /* Lift the card up on hover */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15); /* A more pronounced shadow */
+    border-color: #007bff; /* Add a blue border on hover */
+}
+
+.feature-icon {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.feature-card:hover .feature-icon {
+    transform: scale(1.1); /* Slightly grow the icon on hover */
+}
+
+/* --- Enhanced Testimonial Card Styles --- */
+.testimonial-card {
+    border: 2px solid transparent;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+    transition: all 0.3s ease-in-out;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    border-color: #198754; /* A green border for testimonials */
+}
+
+.testimonial-card .card-body {
+    padding: 2rem;
+}
+
+.testimonial-card .blockquote-footer {
+    margin-top: 1rem;
+}

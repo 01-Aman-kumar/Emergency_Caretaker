@@ -1,0 +1,35 @@
+.stat-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    border: none;
+}
+
+.incident-table th {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.incident-row {
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.incident-row:hover {
+    background-color: #f1f3f5;
+}
+
+.status-badge {
+    padding: 0.4em 0.8em;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+
+.response-map-card {
+    height: 450px; /* Defines the height of the map */
+    padding: 0;
+    overflow: hidden; /* Ensures the map fits within the rounded corners */
+}

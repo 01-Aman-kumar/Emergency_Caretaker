@@ -1,0 +1,74 @@
+/* A rich, modern dark background for the footer */
+.footer-dark {
+    background-color: #161c2d; /* A deep navy blue */
+    padding: 60px 0;
+    color: #8a99b3; /* A softer, more professional text color */
+}
+
+.footer-dark h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-dark ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.8;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.footer-dark ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: all 0.3s;
+}
+
+.footer-dark ul a:hover {
+    opacity: 1;
+    color: #ffffff;
+}
+
+.footer-dark .social-icons {
+    text-align: center;
+}
+
+.footer-dark .social-icons a {
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    color: #ffffff;
+    background-color: #27304e; /* A slightly lighter circle for contrast */
+    transition: all 0.3s ease;
+}
+
+/* Unique hover colors for each social icon */
+.footer-dark .social-icons a:hover {
+    transform: scale(1.1) translateY(-2px);
+}
+
+.footer-dark .social-icons a[href*="facebook.com"]:hover { background-color: #3b5998; }
+.footer-dark .social-icons a[href*="twitter.com"]:hover { background-color: #00aced; }
+.footer-dark .social-icons a[href*="linkedin.com"]:hover { background-color: #007bb6; }
+.footer-dark .social-icons a[href*="instagram.com"]:hover { background-color: #e4405f; }
+
+
+.footer-dark .copyright {
+    text-align: center;
+    padding-top: 24px;
+    opacity: 0.6;
+    font-size: 13px;
+    margin-top: 30px;
+    border-top: 1px solid #27304e;
+}

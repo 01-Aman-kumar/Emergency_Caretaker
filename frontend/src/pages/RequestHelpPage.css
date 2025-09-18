@@ -1,0 +1,121 @@
+.page-background {
+    padding: 4rem 0;
+    background-color: #f4f7f6;
+}
+
+.form-container-card {
+    padding: 2.5rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    border: none;
+    background-color: #ffffff;
+}
+
+.form-title {
+    text-align: center;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+}
+
+.form-label-icon {
+    font-weight: 600;
+    color: #34495e;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.map-container {
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.submit-button {
+    padding: 0.8rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.secure-info {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #7f8c8d;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styles for the Camera Modal */
+.camera-modal .modal-content {
+    background-color: #212529;
+    color: white;
+    border-radius: 15px;
+}
+
+.camera-modal .modal-header {
+    border-bottom: 1px solid #495057;
+}
+
+.camera-modal .modal-footer {
+    border-top: 1px solid #495057;
+}
+
+.camera-view-container {
+    position: relative;
+    width: 100%;
+    background-color: #000;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.camera-view-container video,
+.camera-view-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Styling for the captured photo preview inside the modal */
+.photo-preview {
+    position: relative;
+}
+
+.retake-photo-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 10;
+}
+
+/* New style for the main form's photo thumbnail */
+.photo-thumbnail-container {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px dashed #0d6efd;
+}
+
+.photo-thumbnail-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.remove-photo-main-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    border: none;
+}
