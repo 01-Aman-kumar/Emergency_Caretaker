@@ -40,7 +40,7 @@ const Header = () => {
               - The className dynamically adds the 'scrolled' class based on the scroll position.
             */}
             <Navbar 
-                bg=''
+                bg='transparent'
                 variant={isScrolled ? 'light' : 'dark'} 
                 expand="lg" 
                 collapseOnSelect 
@@ -49,7 +49,7 @@ const Header = () => {
             >
                 <Container>
                     <LinkContainer to="/">
-                        <Navbar.Brand className='fw-bold demo'>
+                        <Navbar.Brand className='fw-bold demo text-black'>
                           <i className="fa-solid fa-truck-medical m-1 text-danger"></i>
                           Jeevan</Navbar.Brand>
                     </LinkContainer>
@@ -57,7 +57,7 @@ const Header = () => {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
                              {userInfo && userInfo.role === 'Responder' ? (
-                                <NavDropdown title={userInfo.name} id="username">
+                                <NavDropdown title={userInfo.name} id="username" className='text-danger'>
                                     <LinkContainer to="/dashboard">
                                         <NavDropdown.Item>Dashboard</NavDropdown.Item>
                                     </LinkContainer>
